@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curtis' Blog</title>
+	<meta name="description" content="Blog of Curtis"/>
+</head>
+<body>
+
+<div id="main-content">
+	<h1>Main Content</h1>
+	<p>Lorem ipsum dolor sit amet, malesuada adipiscing. Non ante, nulla vel, praesent nec dolor iaculis rhoncus tempor, phasellus vehicula nibh semper nisl urna orci, mauris ullamcorper donec. In curabitur non et nascetur ipsum, netus minim aenean suscipit. Ante felis. Turpis arcu risus, orci amet integer ante commodo consectetuer. Quisque diam, fusce egestas. Mollis massa nec luctus aenean, nisl leo in tortor, vel viverra. Purus in vivamus in rutrum potenti, vitae rhoncus <span id="gibberish">commodo sollicitudin non elit sed, dui consectetuer interdum</span> malesuada etiam, ipsum dignissim posuere amet, purus ac eros massa turpis.</p>
+
+	<p>Sources:</p>
+	<ul>
+		<li>
+			<a href="www.wikipedia.org">Wiki</a>
+		</li>
+		<li>
+			<a href="www.reddit.com">reddit</a>
+		</li>
+		<li>
+			<a href="www.scientology.org">Scientology</a>
+		</li>
+	</ul>
+
+	<table>
+    <thead>
+        <tr>
+          <th>Hero</th>
+          <th>Power</th>
+          <th>Weakness</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Superman</td>
+            <td>Strength</td>
+            <td>Kryptonite</td>
+        </tr>
+        <tr>
+            <td>Batman</td>
+            <td>Intelligence</td>
+            <td>Father's Day</td>
+        </tr>
+    </tbody>
+	</table>
+</div>
+
+
+
+
+<div id="survey">
+	<form action="process.php" method="post">
+    <p>Survey</p>
+    <label>
+        First Name:<input type="text" name="first_name">
+    </label>
+    <label>
+        Last Name:<input type="text" name="last_name">
+    </label>
+    <label>
+        Email:<input type="text" name="email">
+    </label>
+    <p>Select your gender:</p>
+    <select name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+	</select>
+	<p>Employment status:</p>
+    <label>
+        <input type="radio" name="employment" value="Emplyed"> Employed
+    </label>
+    <label>
+        <input type="radio" name="employment" value="Unemployed"> Unemployed
+    </label>
+    <p>What shows have you watched?</p>
+    <label><input type="checkbox" name="show" value="Breaking Bad">Breaking Bad</label>
+    <label><input type="checkbox" name="show" value="Game of Thrones">Game of Thrones</label>
+    <label><input type="checkbox" name="show" value="True Detective">True Detective</label>
+    <label><input type="checkbox" name="show" value="Orange Is The New Black">Orange Is The New Black</label>
+    <label><input type="checkbox" name="show" value="Pokemon">Pokemon</label>
+    <p>Say a few words about yourself:</p>
+    <textarea name="description"></textarea>
+   
+   <input type="submit" value="Submit">
+ 	</form>
+</div>
+</body>
+ </html>
+
+
